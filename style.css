@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -9,7 +10,6 @@ header{
     background-color: #3c38f1;
     padding: 2rem 8rem;
     position:fixed;
-    width: 100%;
     z-index: 1 !important;
 }
 
@@ -534,7 +534,7 @@ footer img{
     background-color: white;
     border-radius: 5px;
     color: hsl(208, 49%, 24%);
-    min-width: 65%;
+    min-width: 75%;
     position: absolute;
     margin-top: 35rem;
     box-shadow: 2px 2px 15px rgba(119, 117, 117, 0.507);
@@ -563,11 +563,12 @@ footer img{
     header{
         position: initial;
     }
+
     .logo{
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 80%;
+        width: 100%;
         gap: 60%;
     }
 
@@ -582,7 +583,7 @@ footer img{
 
     .mobile-nav.display{
         display: block;
-        padding: 2rem 0rem 2rem 8rem;
+        padding: 2rem 0rem 2rem 0rem;
     }
     
     #nav-btn{
@@ -606,5 +607,61 @@ footer img{
     .links{
         flex-direction: column;
         align-items: center;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container1{
+        padding: 0rem 8rem 15rem 8rem;
+    }
+
+    .text-section h1{
+        width: 90%;
+    }
+
+    .container1 img{
+        width: 120%;
+    }
+    .container4 .heading{
+        gap: 65%;
+    }
+
+    .container5 .stats{
+        gap: 4rem;
+    }
+
+    .container6{
+        gap:5rem;
+    }
+
+    .testimonial{
+        width: 85%;
+    }
+
+    .contact-us img{
+        width: auto;
+    }
+
+    .form-sec{
+        margin-left: 2rem;
+    }
+
+    .form-sec form input{
+        width: 12rem;
+    }
+    
+    .form-sec textarea{
+        width: 27rem;
+    }
+
+    .form-sec button{
+        padding: 1rem;
+    }
+
+    footer .other-links{
+        margin-left: 7%;
     }
 }
