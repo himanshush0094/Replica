@@ -1,7 +1,6 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
 }
 
 header{
@@ -28,12 +27,6 @@ p{
     display: flex;
     gap: 2%;
     align-items: center;
-}
-
-.desktop-nav{
-    display: flex;
-    margin-left: -5rem;
-    width: 60%;
 }
 
 .link-container{
@@ -516,27 +509,3 @@ footer img{
     text-decoration: underline;
 }
 
-#nav-btn{
-    display: none;
-}
-
-#close-btn{
-    display: none;
-}
-
-.mobile-nav{
-    display: none;
-    padding: 2rem 0rem;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    background-color: white;
-    border-radius: 5px;
-    color: hsl(208, 49%, 24%);
-    min-width: 75%;
-    position: absolute;
-    margin-top: 35rem;
-    box-shadow: 2px 2px 15px rgba(119, 117, 117, 0.507);
-}
