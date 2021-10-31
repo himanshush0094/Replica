@@ -31,10 +31,18 @@ p{
 
 .desktop-nav{
     display: flex;
-    width: max-content;
-    margin-left: 5rem;
+    margin-left: -5rem;
+    width: 60%;
 }
 
+.link-container{
+    display: flex;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
 
 .links a{
     text-decoration: none;
@@ -53,7 +61,6 @@ p{
     background: rgba(0, 0, 0, 0.24);
 }
 
-
 #mobile{
     background-color: #02d569;
 }
@@ -61,7 +68,7 @@ p{
 .container1{
     display: flex;
     padding: 10rem 8rem 15rem 8rem;
-    background: url(container1-img/banner-bg.svg);
+    background: url(images/container1-img/banner-bg.svg);
     background-position: 0rem 0rem;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -287,7 +294,7 @@ p{
     background-color: #a721f1;
     color: white;
     display: flex;
-    background-image: url(assets/testimonial/testimonial-bg.svg);
+    background-image: url(images/assets/testimonial/testimonial-bg.svg);
     gap: 18rem;
 }
 
@@ -440,7 +447,7 @@ p{
 .footer-container{
     padding: 8rem ;
     background-color: #1b1ff9;
-    background-image: url(assets/footer_bg.svg);
+    background-image: url(images/assets/footer_bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
